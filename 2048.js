@@ -346,5 +346,5 @@ function somarDown() {
 }
 
 document.onkeyup = e => {
-    new eventos[e.key]()
+    eventos[e.key]()
 }
